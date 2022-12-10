@@ -1,0 +1,43 @@
+body {
+  background-color: rgb(236, 187, 222);
+}
+.container {
+  border: 1px solid rgb(255, 255, 255);
+  height: 400px;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  margin: 100px 388px;
+  background-color: rgb(255, 49, 159);
+  border-radius: 22px;
+  box-shadow: -4px 6px 5px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: -4px 6px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -4px 6px 5px 0px rgba(0, 0, 0, 0.75);
+}
+.container h1 {
+  color: white;
+}
+.para {
+  /* border: 1px solid rgb(238, 237, 237); */
+  height: 80px;
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+.para p {
+  font-size: 1.5rem;
+  color: rgb(60, 59, 59);
+}
+.para p span {
+  color: rgb(38, 241, 255);
+}
+textarea {
+  resize: none;
+  height: 172px;
+  width: 78%;
+  font-size: 1.6rem;
+}
